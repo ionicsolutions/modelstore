@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+🆕  Added a `get_domain()` function, which returns key meta data about a domain.
+
 🐛   Updated the names of the environment variables that are checked for setting the modelstore storage root (prefixes). Previously, this was using the same variable name and this would cause issues if you were creating more than one type of modelstore.
 
 🆕  Previously, any extra files you wanted to upload were uploaded separately to the model archive. Now, they are added into the archive in a subdirectory called "extras" so that you can easily download them back. I've also added an example of uploading a model with some additional files. 
